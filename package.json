@@ -1,0 +1,27 @@
+{
+  "name": "@intellerium/ts-utility-types",
+  "version": "1.0.0",
+  "description": "Typescript helpful types",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Intellerium/ts-utility-types.git"
+  },
+  "homepage": "https://github.com/Intellerium/ts-utility-types",
+  "author": "Roman Kasner",
+  "license": "MIT",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ./tsconfig.json --outDir dist/"
+  },
+  "keywords": [
+    "typescript",
+    "types"
+  ],
+  "devDependencies": {
+    "eslint": "8.53.0",
+    "prettier": "3.0.3",
+    "typescript": "5.2.2"
+  }
+}
